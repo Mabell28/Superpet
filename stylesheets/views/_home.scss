@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.list_header{
+  float: left;
+
+  li{
+    float: left;
+    list-style: none;
+  }
+}
+
+.box_img_header{
+  img{
+        width: 115%;
+    margin: 15px 0px;
+  }
+}
+.text_header_1{
+  p{
+        font-size: 16px;
+    margin: 25px 0px;
+  }
+}
+
+.text_header_2{
+      margin: 15px 5px;
+  img{
+    float: left;
+  }
+}
+.text_header_2{
+  p{
+        float: left;
+    font-size: 37px;
+  }
+}
+.space{
+  width: 200px;
+  height: 100px;
+}
+
+.bg{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 276px;
+}
+
+.box_bg{
+      background-color: rgba(65, 65, 65, 0.4);
+    margin: 65px 25px;
+    position: absolute;
+
+    h2{
+          margin-top: 10px;
+    padding: 25px;
+
+    }
+}
+
+.grid_steps{
+  background-color: #e5e5e5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list_step{
+  float: left; 
+  padding: 10px 5px;
+  
+  .step{
+    float: left;
+    list-style: none;
+
+    div{
+      float: left;
+    }
+  }
+}
+
+.img_step{
+  margin: 25px 5px;
+  img{
+    width: 85%;
+  }
+}
+
+.text_step{
+  h3{
+        font-size: 18px;
+  }
+}
+
+.border_sides{
+      border-left-style: groove;
+    border-right-style: groove;
+    border-width: thin;
+    height: 150px;
+}
+
+.mg_top_15{
+  margin-top: 15px;
+}
+
+.box_red{
+      position: absolute;
+    left: 28px;
+    top: 10px;
+}
+.text_box_red{
+  background-color: #da4a5c;
+  float: left;
+      padding: 15px 40px;
+  li{
+    list-style: none;
+    float: left;
+
+    img{
+      width: 70%;
+    }
+  }
+}
+
+.box_formulario{
+      width: 70%;
+    background-color: #417abd;
+    padding: 45px;
+        margin-top: 70px;
+}
+
+#contac{
+  width: 300px;
+  margin: 15px 0px;
+  text-align: center;
+}
+#nombre, #apellido, #mail, #distrito, #telefono{
+      width: 270px;
+    padding: 6px;
+    margin: 10px 0px;
+}
+
+#mensaje{
+      width: 270px;
+    height: 94px;
+    padding-bottom: 55px;
+    padding-left: 10px;
+}
+
+#btn{
+      background-color: #da4a5c;
+    border: 0;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    margin: 16px 70px;
+}
+
+#check{
+  width: 20px;
+    height: 20px;
+}
+
+.text_check{
+      display: inline-block;
+    font-size: 16px;
+    color: white;
+    margin: 0px 10px;
+}
+
+.text_formulario{
+  color: white;
+}
+
+.sub_text_form{
+      background-color: rgba(65, 65, 65, 0.5);
+    width: 379px;
+    margin: 0;
+    padding: 11px;
+    font-size: 15px;
+    margin-left: -45px;
+}
+
+.box_food_dog, .box_food_cat{
+  padding: 15px 35px;
+}
+
+.box_footer{
+  background-color: gray;
+      float: left;
+    width: 100%;
+    margin-top: 55px;
+    padding: 5px;
+}
+
+.box_fb{
+  float: left;
+    width: 60px;
+    a{
+      img{
+        width: 100%;
+      }
+    }
+}
+
+.text_footer{
+      float: right;
+    margin-right: 130px;
+    font-size: 17px;
+
+    p{
+          float: right;
+    margin: 10px;
+    }
+}

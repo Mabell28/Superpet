@@ -5655,7 +5655,7 @@ button.close {
   margin: 15px 0px; }
 
 .text_header_1 p {
-  font-size: 16px;
+  font-size: 14px;
   margin: 25px 0px; }
 
 .text_header_2 {
@@ -5665,11 +5665,11 @@ button.close {
 
 .text_header_2 p {
   float: left;
-  font-size: 28px;
+  font-size: 24px;
   margin: 15px 0px; }
 
 .space {
-  width: 200px;
+  width: 145px;
   height: 100px; }
 
 .bg {

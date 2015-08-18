@@ -5733,7 +5733,7 @@ button.close {
       width: 70%; }
 
 .box_formulario {
-  width: 100%;
+  width: 70%;
   background-color: #417abd;
   padding: 45px;
   margin-top: 70px; }
@@ -5807,46 +5807,4 @@ button.close {
     float: right;
     margin: 10px; }
 
-/*----INICIO RESPONSIVE-----*/
-@media (max-width: 480px) {
-  .box_img_header img {
-    width: 115%;
-    margin: 3px 14px; }
-
-  .space {
-    width: 145px;
-    height: 0px; }
-
-  .img_step {
-    margin: 4px 5px; }
-
-  .text_header_1 {
-    text-align: center;
-    margin: 0px 44px; }
-    .text_header_1 img {
-      width: 45%; }
-
-  .text_header_2 {
-    margin: 0px 33px; }
-    .text_header_2 p {
-      float: left;
-      font-size: 24px;
-      margin: 5px 0px; }
-
-  .text_header_2 img {
-    width: 30%; }
-
-  .text_dog, .text_cat {
-    font-size: 22px;
-    text-align: center; }
-
-  .box_footer {
-    margin-top: -1px; }
-
-  .text_footer {
-    width: 58%;
-    font-size: 13px;
-    text-align: center;
-    margin-right: 5px; } }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cs.map */

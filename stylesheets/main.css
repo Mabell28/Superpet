@@ -5778,11 +5778,17 @@ button.close {
 
 .sub_text_form {
   background-color: rgba(65, 65, 65, 0.5);
-  width: 409px;
+  width: 406px;
   margin: 0;
   padding: 7px;
   font-size: 15px;
   margin-left: -45px; }
+
+.confirmar {
+  background-color: rgba(47, 48, 57, 0.4);
+  margin: 7px;
+  border: 0;
+  color: white; }
 
 .box_food_dog, .box_food_cat {
   padding: 15px 35px; }

@@ -1,4 +1,4 @@
-
+/*
 
 function valida () {
 	var nombre =  document.getElementById('nombre').value;
@@ -21,4 +21,27 @@ if(apellido==0) {
 
 
 
-}
+}*/
+
+
+var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
+
+$(document).ready(function(){
+	$('enviar').click(function(){
+
+		var nombre = $('#nombre').val();
+		var apellido = $('#apellido').val();
+		var mail = $('#mail').val();
+
+		if (nombre == ""){
+			$('#mensaje1').fadeIn();
+			return false;
+		}else{
+			$('#mensaje1').fadeOut();
+			if(apellido == "" || !expr.test(apellido)){
+				$('#mensaje2').fadeIn();
+				return false;
+			}
+		}
+	});
+});

@@ -150,7 +150,7 @@
     padding-left: 10px;
 }
 
-#btn{
+#enviar{
       background-color: #da4a5c;
     border: 0;
     color: white;
@@ -185,13 +185,30 @@
     margin-left: -45px;
 }
 
-.confirmar{
-      background-color: rgba(47, 48, 57, 0.4);
-    margin: 7px;
-    border: 0;
+.error{
+      position: absolute;
+    background-color: #DA4A5C;
     color: white;
+    padding: 10px;
+    border-radius: 6px;
+    right: 78px;
+    top: 193px;
+    display: none;
     
 }
+
+.error2{
+      position: absolute;
+    background-color: #DA4A5C;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    right: 78px;
+    top: 244px;
+    display: none;
+    
+}
+
 .box_food_dog, .box_food_cat{
   padding: 15px 35px;
 }

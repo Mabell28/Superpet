@@ -206,8 +206,10 @@
                 <div class="sub_text_form">
                   <p class="text-color">Para hacer tu pedido llena este formulario y </br> te llamaremos a la brevedad.</p>
                 </div>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre">*
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido">*
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">*</br>
+                <div id="mensaje1" class="error">Ingrese su nombre</div>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido">*<br>
+                <div id="mensaje2" class="error">Ingrese su apellido</div>
                 <input type="text" id="mail" name="mail" placeholder="Email">*
                 <input type="text" id="telefono" name="telefono" placeholder="Teléfono">*
                 <select type="text" name="distrito" placeholder="Distrito" id="distrito">*
@@ -224,7 +226,7 @@
                 <input id="check" name="cbilibros" type="checkbox" checked="checked" /><p class="text_check">Términos y condiciones</p>
                 <br />
                 </form>
-                <input id="btn" type="button" value="Consultar Ahora" onclick="valida()">
+                <input id="enviar" type="submit" value="Consultar Ahora">
                 <p class="text-center text_formulario">*Campos obligatorios</p>
               </form>
             </div>

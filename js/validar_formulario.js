@@ -38,7 +38,7 @@ $(document).ready(function(){
 			return false;
 		}else{
 			$('#mensaje1').fadeOut();
-			if(apellido == "" || !expr.test(apellido)){
+			if(mail == "" || !expr.test(mail)){
 				$('#mensaje2').fadeIn();
 				return false;
 			}

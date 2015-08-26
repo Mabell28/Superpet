@@ -5896,6 +5896,18 @@ html {
 
 /*----INICIO RESPONSIVE-----*/
 @media (max-width: 480px) {
+  .bg {
+    height: 101px; }
+
+  .box_bg {
+    position: relative;
+    margin: 10px 0px; }
+    .box_bg h2 {
+      font-size: 19px;
+      padding: 30px;
+      margin-top: 5px;
+      text-align: center; }
+
   .box_img_header img {
     width: 115%;
     margin: 3px 14px; }
@@ -5928,11 +5940,24 @@ html {
     text-align: center;
     color: #5587ad; }
 
+  .box_red {
+    left: 30px;
+    top: 10px; }
+    .box_red ul {
+      padding: 10px; }
+
+  .sub_text_form {
+    width: 375px;
+    padding: 7px; }
+
   .box_formulario {
     width: 100%; }
 
   .box_footer {
     margin-top: -1px; }
+
+  .box_fb {
+    margin: 0px 15px; }
 
   .text_footer {
     width: 58%;

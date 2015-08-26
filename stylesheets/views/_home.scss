@@ -3,6 +3,71 @@
   padding: 0;
 }
 
+html {
+
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../Fuente/opensans-bold.eot');
+    src: url('../Fuente/opensans-bold.eot?#iefix') format('embedded-opentype'),
+         url('../Fuente/opensans-bold.woff2') format('woff2'),
+         url('../Fuente/opensans-bold.woff') format('woff'),
+         url('../Fuente/opensans-bold.ttf') format('truetype'),
+         url('../Fuente/opensans-bold.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../Fuente/opensans-light.eot');
+    src: url('../Fuente/opensans-light.eot?#iefix') format('embedded-opentype'),
+         url('../Fuente/opensans-light.woff2') format('woff2'),
+         url('../Fuente/opensans-light.woff') format('woff'),
+         url('../Fuente/opensans-light.ttf') format('truetype'),
+         url('../Fuente/opensans-light.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../Fuente/opensans-regular.eot');
+    src: url('../Fuente/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../Fuente/opensans-regular.woff2') format('woff2'),
+         url('../Fuente/opensans-regular.woff') format('woff'),
+         url('../Fuente/opensans-regular.ttf') format('truetype'),
+         url('../Fuente/opensans-regular.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../Fuente/opensans-semibold.eot');
+    src: url('../Fuente/opensans-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../Fuente/opensans-semibold.woff2') format('woff2'),
+         url('../Fuente/opensans-semibold.woff') format('woff'),
+         url('../Fuente/opensans-semibold.ttf') format('truetype'),
+         url('../Fuente/opensans-semibold.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .list_header{
   float: left;
 
@@ -10,6 +75,18 @@
     float: left;
     list-style: none;
   }
+}
+
+.text_1{
+  font-family: 'open_sanssemibold';
+}
+
+.text_2{
+  font-family: 'open_sansregular'
+}
+
+.number_header{
+font-family: 'open_sanssemibold';
 }
 
 .box_img_header{
@@ -47,7 +124,7 @@
   background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 276px;
+  height: 365px;
 }
 
 .box_bg{
@@ -56,18 +133,28 @@
     position: absolute;
 
     h2{
-          margin-top: 10px;
-    padding: 25px;
+    margin-top: 5px;
+    padding: 70px;
 
     }
 }
 
+.text_bg{
+  font-family: 'open_sanssemibold'
+}
 .grid_steps{
   background-color: #e5e5e5;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
+.title_step{
+  font-family: 'open_sanssemibold';
+}
+
+.p_step{
+  font-family: 'open_sansregular';
+}
 .list_step{
   float: left; 
   padding: 10px 5px;
@@ -92,6 +179,7 @@
 .text_step{
   h3{
         font-size: 18px;
+        font-family: 'open_sanssemibold';
   }
 }
 
@@ -106,6 +194,11 @@
   margin-top: 15px;
 }
 
+.text_dog, .text_cat {    
+    font-family: 'open_sansbold';
+    color: #5587ad;
+}
+
 .box_red{
       position: absolute;
     left: 28px;
@@ -114,7 +207,7 @@
 .text_box_red{
   background-color: #da4a5c;
   float: left;
-      padding: 15px 54px;
+      padding: 15px 30px;
   li{
     list-style: none;
     float: left;
@@ -125,6 +218,14 @@
   }
 }
 
+
+.text_linea_1{
+  font-family: 'open_sansregular';
+}
+
+.text_linea_2{
+  font-family: 'open_sansbold';
+}
 .box_formulario{
       width: 75%;
     background-color: #417abd;
@@ -132,6 +233,13 @@
         margin-top: 70px;
 }
 
+.text_ligth{
+  font-family: 'open_sansregular';
+}
+
+.text_bold{
+  font-family: 'open_sansbold';
+}
 #contac{
   width: 300px;
   margin: 15px 0px;
@@ -157,6 +265,7 @@
     padding: 10px;
     font-size: 17px;
     margin: 0px 70px;
+    font-family: 'open_sanssemibold';
 }
 
 #check{
@@ -174,6 +283,7 @@
 .text_formulario{
   color: white;
       margin-top: 7px;
+      font-family: 'open_sansregular';
 }
 
 .sub_text_form{
@@ -240,6 +350,7 @@
     p{
           float: right;
     margin: 10px;
+    font-family: 'open_sanssemibold';
     }
 }
 
@@ -285,9 +396,10 @@
   width: 30%;
 }
 
-.text_dog, .text_cat{
+.text_dog, .text_cat {
       font-size: 22px;
     text-align: center;
+    color: #5587ad;
 }
 
 .box_formulario{

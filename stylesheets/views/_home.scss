@@ -79,6 +79,7 @@ html {
 
 .text_1{
   font-family: 'open_sanssemibold';
+  font-size: 18px;
 }
 
 .text_2{
@@ -116,7 +117,7 @@ font-family: 'open_sanssemibold';
   }
 }
 .space{
-  width: 320px;
+  width: 249px;
   height: 100px;
 }
 
@@ -197,7 +198,6 @@ font-family: 'open_sanssemibold';
 .text_dog, .text_cat {    
     font-family: 'open_sansbold';
     color: #5587ad;
-    margin-left: 90px;
 }
 
 .box_red{
@@ -207,8 +207,8 @@ font-family: 'open_sanssemibold';
 }
 .text_box_red{
   background-color: #da4a5c;
-  float: left;
-      padding: 15px 30px;
+    float: left;
+    padding: 10px 20px;
   li{
     list-style: none;
     float: left;
@@ -219,6 +219,9 @@ font-family: 'open_sanssemibold';
   }
 }
 
+.m_li{
+  margin-left: -30px;
+}
 
 .text_linea_1{
   font-family: 'open_sansregular';
@@ -228,10 +231,10 @@ font-family: 'open_sanssemibold';
   font-family: 'open_sansbold';
 }
 .box_formulario{
-      width: 75%;
+   width: 100%;
     background-color: #417abd;
-    padding: 40px 45px;
-        margin-top: 70px;
+    padding: 30px 0px;
+    margin-top: 80px;
 }
 
 .text_ligth{
@@ -242,30 +245,31 @@ font-family: 'open_sanssemibold';
   font-family: 'open_sansbold';
 }
 #contac{
-  width: 300px;
-  margin: 15px 0px;
-  text-align: center;
+      width: 335px;
+    margin: 10px 13px;
+    text-align: center;
 }
 #nombre, #apellido, #mail, #distrito, #telefono{
-      width: 280px;
-    padding: 3px;
-    margin: 10px 0px;
+  width: 301px;
+    padding: 7px;
+    margin: 7px 0px;
 }
 
 #mensaje{
-      width: 280px;
+      width: 301px;
     height: 80px;
     padding-bottom: 55px;
     padding-left: 10px;
+    margin: 7px 0px;
 }
 
 #enviar{
       background-color: #da4a5c;
     border: 0;
     color: white;
-    padding: 10px;
+    padding: 6px 20px;
     font-size: 17px;
-    margin: 0px 70px;
+    margin: 0px 90px;
     font-family: 'open_sanssemibold';
 }
 
@@ -288,12 +292,13 @@ font-family: 'open_sanssemibold';
 }
 
 .sub_text_form{
-      background-color: rgba(65, 65, 65, 0.5);
-    width: 406px;
+  background-color: rgba(65, 65, 65, 0.5);
+    width: 360px;
     margin: 0;
-    padding: 7px;
+    padding: 4px;
     font-size: 15px;
-    margin-left: -45px;
+    margin-left: -13px;
+        margin-bottom: 10px;
 }
 
 .error{
@@ -321,7 +326,7 @@ font-family: 'open_sanssemibold';
 }
 
 .box_food_dog, .box_food_cat{
-  padding: 15px 35px;
+  padding: 15px;
 }
 
 .box_footer{
@@ -335,7 +340,7 @@ font-family: 'open_sanssemibold';
 .box_fb{
   float: left;
     width: 60px;
-    margin: 0px 95px;
+    margin: 0px 90px;
     a{
       img{
         width: 100%;
@@ -345,7 +350,7 @@ font-family: 'open_sanssemibold';
 
 .text_footer{
       float: right;
-    margin-right: 130px;
+    margin-right: 85px;
     font-size: 17px;
 
     p{
